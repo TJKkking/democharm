@@ -1,0 +1,29 @@
+# Copyright 2022 ootao
+# See LICENSE file for licensing details.
+#
+# TEMPLATE-TODO: change this example to suit your needs.
+# If you don't need a config, you can remove the file entirely.
+# It ties in to the example _on_config_changed handler in src/charm.py
+#
+# Learn more about config at: https://juju.is/docs/sdk/config
+
+options:
+  name:
+    default: CharmDemo
+    description: The name, or Title of the App
+    type: string
+
+  alice:
+    default: aliceDEFAULT
+    description: test field-1 Alice
+    type: string
+
+  bobob:
+    default: bobobDEFAULT
+    description: test field-2 Bobob
+    type: string
+    
+  message: 
+    type: string
+    description: Message to be reported in the unit's status
+    default: 'this is a message'

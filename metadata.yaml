@@ -1,0 +1,14 @@
+# Copyright 2022 ootao
+# See LICENSE file for licensing details.
+
+# For a complete list of supported options, see:
+# https://juju.is/docs/sdk/metadata-reference
+name: democharm
+display-name: |
+  democharm
+description: |
+  Used to get familiar with charm development.
+summary: |
+  A demo charm.
+series:
+  - focal
