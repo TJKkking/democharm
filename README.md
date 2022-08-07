@@ -2,7 +2,7 @@
 
 ## Description
 
-a charm for practice juju
+a charm for learning to use osm
 
 ## Contributing
 
